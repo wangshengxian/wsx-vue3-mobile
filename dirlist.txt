@@ -1,0 +1,47 @@
+卷 LENOVO 的文件夹 PATH 列表
+卷序列号为 F4C9-7E55
+D:.
+├─project
+│  └─static
+│      ├─css
+│      └─js
+├─public
+└─src
+    ├─api
+    ├─assets
+    │  └─images
+    │      ├─com
+    │      ├─demo
+    │      ├─home
+    │      ├─my
+    │      └─order
+    ├─components
+    │  ├─btn
+    │  ├─calculator
+    │  ├─footerNav
+    │  ├─headerBar
+    │  └─toast
+    ├─context
+    │  ├─classify
+    │  └─home
+    ├─hooks
+    ├─plugins
+    │  ├─loading
+    │  └─toast
+    ├─router
+    │  └─modules
+    ├─store
+    │  └─modules
+    ├─styles
+    ├─utils
+    └─views
+        ├─classify
+        │  └─components
+        ├─demo
+        │  └─provide
+        │      └─components
+        ├─goodsDetails
+        ├─index
+        │  └─components
+        ├─layout
+        └─my

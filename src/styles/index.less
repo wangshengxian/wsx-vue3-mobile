@@ -1,0 +1,25 @@
+@import './reset';
+@import './h5-compatibility';
+@import './flexbox';
+
+html,
+body {
+  height: 100%;
+}
+
+// 单行文本溢出，需要定宽
+.one-cut-txt {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// 两行文本溢出
+.two-cut-txt {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
